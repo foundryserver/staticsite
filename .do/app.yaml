@@ -1,8 +1,8 @@
-name: sample-html
+name: foundry-offline-static
 static_sites:
 - environment_slug: html
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-html
-  name: sample-html
+    repo: foundryserver/staticsite
+  name: foundry-offline-static
