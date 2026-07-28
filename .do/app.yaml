@@ -1,8 +1,8 @@
-name: foundry-offline-static
+name: foundry-offline-site
 static_sites:
-- environment_slug: html
-  github:
-    branch: main
-    deploy_on_push: true
-    repo: foundryserver/staticsite
-  name: foundry-offline-static
+  - environment_slug: html
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: foundryserver/staticsite
+    name: foundry-offline-site

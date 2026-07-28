@@ -1,8 +1,8 @@
 spec:
-  name: foundry static site
+  name: foundry-offline-site
   static_sites:
-  - environment_slug: html
-    git:
-      branch: main
-      repo_clone_url: https://github.com/foundryserver/staticsite.git
-    name: foundry-offline-static
+    - environment_slug: html
+      git:
+        branch: main
+        repo_clone_url: https://github.com/foundryserver/staticsite.git
+      name: foundry-offline-site
